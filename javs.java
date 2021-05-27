@@ -1,3 +1,6 @@
+import java.io.*;
+import java.util.*;
+class A{
 void printfirstLine(String filepath) {
 BufferedReader r = null;
 String line;
@@ -8,4 +11,5 @@ line = r.readLine();
 System.out.println("Exception!");
 }
 System.out.println(line);
+}
 }
